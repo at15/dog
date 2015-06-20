@@ -1,0 +1,22 @@
+{
+  "name": "h-dog",
+  "version": "0.0.1",
+  "private":false,
+  "author": "at15",
+  "license": "MIT",
+  "description":"just wang wang wang",
+  "homepage":"https://github.com/at15/dog",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/at15/dog.git"
+  },
+  "bin":{
+    "dog":"./bin/dog"
+  },
+  "devDependencies": {
+    "doc-viewer":"latest"
+  },
+  "scripts":{
+    "test":"node bin/dog"
+  }
+}
